@@ -87,6 +87,7 @@ if (ext.xwalkMode == SHARED_MODE) {
     // Build embedded 32 bit crosswalk will generate two apks by default.
     ext.cdvBuildMultipleApks = xwalkMultipleApk;
 }
+ext.cdvBuildMultipleApks = false;
 
 // Set defaults before project's build-extras.gradle
 if (!project.hasProperty('xwalkVersion')) {
