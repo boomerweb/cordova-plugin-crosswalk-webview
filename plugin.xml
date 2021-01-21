@@ -26,6 +26,7 @@
         <preference name="XWALK_MULTIPLEAPK" default="true" />
         <config-file target="res/xml/config.xml" parent="/*">
             <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
+            <preference name="webView" value="org.crosswalk.engine.XWalkBridgeEngine"/>
             <preference name="xwalkVersion" value="$XWALK_VERSION"/>
             <preference name="xwalkLiteVersion" value="$XWALK_LITEVERSION"/>
             <preference name="xwalkCommandLine" value="$XWALK_COMMANDLINE"/>
